@@ -13,6 +13,7 @@ We want to implement a pipeline, that enables us to deliver a network that is ab
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ### Authentication
+<img src="./sample_screenshots/insufficient.PNG" width="450">
 ![plot](./sample_screenshots/insufficient.PNG)
 As we use the VM supplied by Udacity we lack permission to create the Service Principal.
 ### Automated ML Experiment
