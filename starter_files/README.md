@@ -40,8 +40,5 @@ The pipeline was implemented using the provided iPython Notebook.
 <img src="../sample_screenshots/pipeline_endpoint_ip.PNG">
 
 
-## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-Due to the lack of software, no screen recording was possible.
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Future Improvement
+Possible Future Improvemnts would be to extend the Logging or Swagger Functions building on the Endpoint to improve and extend the consumption.
