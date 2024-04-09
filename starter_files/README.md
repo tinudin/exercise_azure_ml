@@ -13,32 +13,31 @@ We want to implement a pipeline, that enables us to deliver a network that is ab
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ### Authentication
-<img src="../sample_screenshots/insufficient.PNG" width="450">
-![plot](./sample_screenshots/insufficient.PNG)
+<img src="../sample_screenshots/insufficient.PNG">
 As we use the VM supplied by Udacity we lack permission to create the Service Principal.
 ### Automated ML Experiment
-![plot](./sample_screenshots/screenshot_registered_dataset.PNG)
+<img src="../sample_screenshots/screenshot_registered_dataset.PNG">
 We include the Dataset in our Azure Workspace.
 After this step is completed we setup and run our ML Experiment.
-![plot](./sample_screenshots/finished_auto_ML.PNG)
+<img src="../sample_screenshots/finished_auto_ML.PNG">
 Finally we choose the best Model from the experiment.
-![plot](./sample_screenshots/best_model.PNG)
+<img src="../sample_screenshots/best_model.PNG">
 ### Deploying the model
 We choose the best model as stated in the previous chapter, and deploy this model with Authentication using Azure Container Instance.
 ### Logging
 We then enable Application Insight.
-![plot](./sample_screenshots/enable_application_insight.PNG)
+<img src="../sample_screenshots/enable_application_insight.PNG">
 We then adapt the logs.py script to fit our model and deployment.
 ### Swagger
 We adapt swagger.sh and serve.py to fit our pipeline. 
-![plot](./sample_screenshots/swagger_working.PNG)
+<img src="../sample_screenshots/swagger_working.PNG">
 ### Model Endpoint
 The endpoint is used and works for an example dataset.
-![plot](./sample_screenshots/results_endpoint_py.PNG)
+<img src="../sample_screenshots/results_endpoint_py.PNG">
 ### Pipeline 
 The pipeline was implemented using the provided iPython Notebook.
-![plot](./sample_screenshots/pipeline_created_ip.PNG)
-![plot](./sample_screenshots/pipeline_endpoint_ip.PNG)
+<img src="../sample_screenshots/pipeline_created_ip.PNG">
+<img src="../sample_screenshots/pipeline_endpoint_ip.PNG">
 
 
 ## Screen Recording
